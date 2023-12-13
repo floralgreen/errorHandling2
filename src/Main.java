@@ -3,12 +3,12 @@ public class Main {
     public static void main(String[] args) {
 
         int numero = 101;
-        char carattere = 'f'; //e corrisponde a 99 in codice ASCII
+        char carattere = 'e'; //e corrisponde a 99 in codice ASCII
 
 
         try{
             if((int)carattere == numero) {
-                System.out.println("Successful");
+                System.out.println("Carattere " + carattere + " e " + numero + " sono uguali");
 
             } else {
                 throw new Exception();
