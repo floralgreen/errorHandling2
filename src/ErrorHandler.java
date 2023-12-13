@@ -1,11 +1,11 @@
 public class ErrorHandler {
 
-    public void confrontaCarattereENumero(char carattere, int numero) {
+    public void controllaCarattere(char carattere) {
 
-        if ((int) carattere == numero) {
-            System.out.println("Carattere " + carattere + " e " + numero + " sono uguali");
+        if (Character.isDigit(carattere)) {
+            System.out.println("Carattere '" + carattere + "' è un numero");
         } else {
-            throw new ArithmeticException("Il carattere ed il numero non sono uguali");
+            throw new ArithmeticException("Il carattere non è un numero");
         }
 
     }

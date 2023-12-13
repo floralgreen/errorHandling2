@@ -4,10 +4,9 @@ public class Main {
 
         ErrorHandler errorHandler = new ErrorHandler();
 
-        int numero = 101;
-        char carattere = 'e'; //e corrisponde a 99 in codice ASCII
+        char carattere = '5';
 
-        errorHandler.confrontaCarattereENumero(carattere, numero);
+        errorHandler.controllaCarattere(carattere);
 
 
     }
